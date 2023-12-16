@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>EtudiantsServlet</servlet-name>
+        <servlet-class>servlet.EtudiantsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EtudiantsServlet</servlet-name>
+        <url-pattern>/Etudiants</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>ProduitServlet</servlet-name>
+        <servlet-class>servlet.ProduitServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ProduitServlet</servlet-name>
+        <url-pattern>/Produits</url-pattern>
+    </servlet-mapping>
+    
+      <servlet>
+        <servlet-name>StyleController</servlet-name>
+        <servlet-class>servlet.StyleController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StyleController</servlet-name>
+        <url-pattern>/Styles</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>MatiereP</servlet-name>
+        <servlet-class>servlet.MatiereP</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MatiereP</servlet-name>
+        <url-pattern>/matiereP</url-pattern>
+    </servlet-mapping>
+    
+        <servlet>
+        <servlet-name>MatiereS</servlet-name>
+        <servlet-class>servlet.MatiereS</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MatiereS</servlet-name>
+        <url-pattern>/matiereS</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>Matiere_par_S</servlet-name>
+        <servlet-class>servlet.Matiere_par_S</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Matiere_par_S</servlet-name>
+        <url-pattern>/matierePS</url-pattern>
+    </servlet-mapping>
+    
+      <servlet>
+        <servlet-name>StyleServlet</servlet-name>
+        <servlet-class>servlet.StyleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StyleServlet</servlet-name>
+        <url-pattern>/styleservlet</url-pattern>
+    </servlet-mapping>
+    
+    
+
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
